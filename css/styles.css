@@ -1,0 +1,52 @@
+/*Reset de estilos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #34db7a;
+}
+
+/*Container*/
+.container {
+    background-color: #fff;
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.2s;
+}
+/*Header*/
+#qr-header {
+    text-align: center;
+}
+
+#qr-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#qr-code p {
+    color: #444;
+    font-size: 0.9rem;
+}
+
+#qr-form {
+    margin:  20px 15px;
+}
+
+#qr-form input,
+#qr-form button {
+    width: 100px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
