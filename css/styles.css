@@ -6,7 +6,7 @@
     font-family: Roboto;
 }
 
-body {
+.qr-page {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     z-index: 0;
   }
+  
   
   body::before {
     content: "";
@@ -126,7 +127,52 @@ body {
 }
 
 
+#qr-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #566164; 
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 
- 
+  #qr-footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  #qr-footer a {
+    color: #d0d5d6; 
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  #qr-footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 
-   
+  #qr-footer p {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #qr-footer i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #fff;
+  }
+  
+
+  hr {
+    border: none; 
+    background-color: #fff;        
+    height: 1px;            
+    width: 35%;             
+    margin: 20px auto;  
+  }

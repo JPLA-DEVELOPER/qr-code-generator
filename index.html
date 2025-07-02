@@ -12,7 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <!--Script-->
     <script src="./js/script.js" defer></script>
     <!--Biblioteca QRCode.js-->
@@ -20,20 +22,39 @@
 
 </head>
 <body>
-    <div class="container">
-        <header id="qr-header">
-            <h1>Gerador de QR Code</h1>
-            <p>Insira uma URL ou texto para criar um QR Code</p>
-        </header>
-        <div id="qr-form">
-            <input type="text" name="texto" placeholder="Digite a URL ou o texto">
-            <button>Gerar QR Code</button>
-        </div>
-        <div id="qr-code">
-            <div class="qr-code-download"></div>
-            <button id="qr-download-btn">Baixar QR Code</button>
+    <div class="qr-page">
+        <div class="container">
+            <header id="qr-header">
+                <h1>Gerador de QR Code</h1>
+                <p>Insira uma URL ou texto para criar um QR Code</p>
+            </header>
+            <div id="qr-form">
+                <input type="text" name="texto" placeholder="Digite a URL ou o texto">
+                <button>Gerar QR Code</button>
+            </div>
+            <div id="qr-code">
+                <div class="qr-code-download"></div>
+                <button id="qr-download-btn">Baixar QR Code</button>
+            </div>
         </div>
     </div>
-    
+    <footer id="qr-footer">
+        <p>
+            <a href="https://www.linkedin.com/in/jpladeveloper" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            &nbsp;|&nbsp;
+            <a href="https://github.com/JPLA-DEVELOPER" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+            </a>
+            &nbsp;|&nbsp;
+            <a href="jpla.developer@gmail.com">
+            <i class="fas fa-envelope"></i> jpla.developer@gmail.com
+            </a>
+        </p>
+        <hr>
+        <p>© 2025 João Paulo Lima – Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
