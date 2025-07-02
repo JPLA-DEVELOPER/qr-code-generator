@@ -25,7 +25,7 @@ body {
 }
 
 .container.active {
-    height: 500px;
+    height: 580px;
 }
 
 /*Header*/
@@ -77,6 +77,8 @@ body {
 /*QR Code*/
 #qr-code {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     opacity: 0;
     border: 1px solid #ccc;
     padding: 30px 0;
@@ -89,3 +91,27 @@ body {
 .container.active #qr-code {
     opacity: 1;
 }
+
+#qr-code button {
+    width: 60%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #086824;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.4s;
+}
+#qr-code button:hover {
+    opacity: 1;
+}
+
+
+
+ 
+
+   

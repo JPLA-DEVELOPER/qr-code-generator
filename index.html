@@ -17,18 +17,25 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="container active">
+    <div class="container">
         <header id="qr-header">
             <h1>Gerador de QR Code</h1>
-            <p>Insira uma URL ou texto, para criar um QR Code</p>
+            <p>Insira uma URL ou texto para criar um QR Code</p>
         </header>
         <div id="qr-form">
-            <input type="text" name="texto" placeholder="Digite a URL ou texto">
+            <input type="text" name="texto" placeholder="Digite a URL ou o texto">
             <button>Gerar QR Code</button>
         </div>
         <div id="qr-code">
-            <img src="./img/qrcode.png" alt="QR Code">
+            <div class="qr-code-download">
+                <img src="" alt="QR Code">
+            </div>
+            <button id="qr-download-btn">Baixar QR Code</button>
         </div>
+        
+
+
+        
     </div>
     
 </body>
